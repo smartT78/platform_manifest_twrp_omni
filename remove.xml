@@ -3,11 +3,6 @@
 
   <remove-project name="device/generic/uml" />
 
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
-
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
@@ -19,17 +14,12 @@
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
 
-  <remove-project name="platform/docs/source.android.com" />
-
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/goldfish" />
-  <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="device/generic/mips" />
   <remove-project name="device/generic/mips64" />
   <remove-project name="device/generic/mini-emulator-arm64" />
@@ -49,6 +39,10 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
@@ -96,10 +90,11 @@
 
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/interfaces" />
-
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
 
   <remove-project name="platform/hardware/marvell/bt" />
+  <remove-project name="platform/hardware/nxp/nfc" />
 
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -139,6 +134,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Stk" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -159,4 +155,5 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
 </manifest>
