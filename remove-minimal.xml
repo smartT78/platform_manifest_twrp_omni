@@ -377,7 +377,6 @@
     <remove-project name="android_development" />
 
     <remove-project name="android_external_aac" />
-    <remove-project name="android_external_chromium-webview" />
 
     <!-- refer to twrp-extras.xml why android_frameworks_base is removed here -->
     <remove-project name="android_frameworks_base" />
