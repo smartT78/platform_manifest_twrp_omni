@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote  name="TeamWin"
+             fetch="https://github.com/TeamWin" />
 
 <!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery" />
@@ -19,6 +21,6 @@
     </project> />
 
 <!-- Use OmniROM busybox -->
-    <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
+    <project path="external/busybox" name="android_external_busybox" remote="TeamWin" revision="android-9.0" />
 
 </manifest>
