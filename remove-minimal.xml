@@ -22,8 +22,6 @@
     <remove-project name="platform/external/autotest" />
     <remove-project name="platform/external/bart" />
     <remove-project name="platform/external/blktrace" />
-    <remove-project name="platform/external/brotli" />
-    <remove-project name="platform/external/bsdiff" />
     <remove-project name="platform/external/caliper" />
     <remove-project name="platform/external/cblas" />
     <remove-project name="platform/external/chromium-libpac" />
@@ -94,7 +92,6 @@
     <remove-project name="platform/external/ksoap2" />
     <remove-project name="platform/external/libavc" />
     <remove-project name="platform/external/libbackup" />
-    <remove-project name="platform/external/libbrillo" />
     <remove-project name="platform/external/libcap-ng" />
     <remove-project name="platform/external/libconstrainedcrypto" />
     <remove-project name="platform/external/libcups" />
@@ -203,7 +200,6 @@
     <remove-project name="platform/external/x264" />
     <remove-project name="platform/external/xmlrpcpp" />
     <remove-project name="platform/external/xmp_toolkit" />
-    <remove-project name="platform/external/xz-embedded" />
     <remove-project name="platform/external/zopfli" />
     <remove-project name="platform/external/zxing" />
 
